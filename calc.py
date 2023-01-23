@@ -7,7 +7,8 @@ def input_2_num():
     while not a and not b:
         print("ВВедите два числа через пробел: ")
         ls = input().split()
-        if len(ls) == 2 and ls[0].isnumeric() and ls[1].isnumeric():
+        # if len(ls) == 2 and ls[0].isnumeric() and ls[1].isnumeric():
+        if len(ls) == 2 and float(ls[0]) and float(ls[1]):
             a, b = ls
             logging.info(f'Input two numbers {a},{b}')
             return a, b
