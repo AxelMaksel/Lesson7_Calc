@@ -46,3 +46,25 @@
 23-01-2023 23:17:09 - calc - INFO - div01 - Result -5/2=-2.5
 23-01-2023 23:17:18 - menu_rac - INFO - menu_rac - Selected racional menu
 23-01-2023 23:17:21 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 23:20:40 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 23:20:50 - calc - INFO - input_2_num - Input two numbers 12,5
+23-01-2023 23:20:50 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 23:20:50 - calc - INFO - div_2 - Result 12//5=2.0
+23-01-2023 23:24:10 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 23:24:27 - calc - INFO - input_2_num - Input two numbers 8,3
+23-01-2023 23:24:27 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 23:24:27 - calc - INFO - div_1 - Result 8/3=2.6666666666666665
+23-01-2023 23:24:54 - calc - INFO - input_2_num - Input two numbers 5,2
+23-01-2023 23:24:54 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 23:24:54 - calc - INFO - div_1 - Result 5/2=2.5
+23-01-2023 23:24:59 - calc - INFO - input_2_num - Input two numbers 4,2
+23-01-2023 23:24:59 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 23:24:59 - calc - INFO - div_1 - Result 4/2=2.0
+23-01-2023 23:29:31 - calc - INFO - input_2_num - Input two numbers 324,12.31
+23-01-2023 23:29:31 - calc - INFO - sub - Result 324-12.31=311.69
+23-01-2023 23:29:56 - calc - INFO - input_2_num - Input two numbers 2,2
+23-01-2023 23:29:56 - calc - INFO - sub - Result 2-2=0.0
+23-01-2023 23:30:04 - calc - INFO - input_2_num - Input two numbers 3,-3
+23-01-2023 23:30:04 - calc - INFO - sub - Result 3--3=6.0
+23-01-2023 23:30:12 - calc - INFO - input_2_num - Input two numbers -3,2
+23-01-2023 23:30:12 - calc - INFO - mul - Result -3*2=-6.0

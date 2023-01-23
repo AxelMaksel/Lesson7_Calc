@@ -14,6 +14,8 @@ def menu_rac():
                         "5 - деление без остатка '//'\n"
                         "6 - остаток от деления '%'\n"
                         "7 - возведение в степень '**'\n"
+                        "8 - вычисление корня квадратного 'SQRT'\n"
+                        "0 - выход в главное меню"
                         )
 
         match num_typ:
@@ -28,12 +30,18 @@ def menu_rac():
                 print(f"\n{a}*{b}={cl.mul(a,b)}\n")
             case "4":
                 a, b = cl.input_2_num()
-                print(f"\n{a}/{b}={cl.div01(a,b)}\n")
+                print(f"\n{a}/{b}={cl.div_1(a,b)}\n")
             case "5":
-                menu_rac()
+                a, b = cl.input_2_num()
+                print(f"\n{a}//{b}={cl.div_2(a,b)}\n")
             case "6":
-                break
+                a, b = cl.input_2_num()
+                print(f"\n{a}%{b}={cl.div_3(a,b)}\n")
             case "7":
-                pass
+                a, b = cl.input_2_num()
+                print(f"\n{a}%{b}={cl.pow(a,b)}\n")
+            case "8":
+                a = cl.input_1_num()
+                print(f"\nSQRT {a}={cl.sqrt(a)}\n")
             case _:
                 print("Erro!!")

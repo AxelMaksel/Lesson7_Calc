@@ -16,6 +16,21 @@ def input_2_num():
             logging.error(f'Input two numbers {ls}')
 
 
+
+def input_1_num():
+    a = ""
+    while not a:
+        print("ВВедите числО: ")
+        ls = input().split()
+        if len(ls) == 1 and float(ls[0]):
+            a = ls[0]
+            logging.info(f'Input ОДНО numbers {a}')
+            return a
+        else:
+            logging.error(f'Input one numbers {ls}')
+            
+            
+
 def sum(x, y):
     r = float(x) + float(y)
     logging.info(f'Result {x}+{y}={r}')
@@ -34,32 +49,34 @@ def mul(x, y):
     return (r)
 
 
-def div01(x, y):
+def div_1(x, y):
     if ex.check_zero(x, y):
         r = float(x) / float(y)
         logging.info(f'Result {x}/{y}={r}')
-        return (r)
+        return (f"{round(r,5)}")
 
 
-def div02(x, y):
+def div_2(x, y):
     if ex.check_zero(x, y):
         r = float(x) // float(y)
         logging.info(f'Result {x}//{y}={r}')
-        return (r)
+        return (f"{round(r,5)}")
 
 
-def div03(x, y):
+def div_3(x, y):
     if ex.check_zero(x, y):
         r = float(x) % float(y)
         logging.info(f'Result {x}%{y}={r}')
-        return (r)
+        return (f"{round(r,5)}")
 
 
 def pow(x, y):
     r = float(x) ** float(y)
     logging.info(f'Result {x}**{y}={r}')
-    return (r)
+    return (f"{round(r,5)}")
 
 
-def sqrt(a):
-    return (a ** 0.5)
+def sqrt(x):
+    r = float(x) ** 0.5
+    logging.info(f'Result {x}')
+    return (f"{round(r,5)}")
