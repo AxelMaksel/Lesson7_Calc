@@ -24,7 +24,7 @@ def menu_rac():
             case "3":
                 break
             case "4":
-                a, b = cl.input_2_num().split()
+                a, b = cl.input_2_num()
                 print(f"{a}/{b}={cl.div01(a,b)}")
             case "5":
                 menu_rac()

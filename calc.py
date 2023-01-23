@@ -1,7 +1,13 @@
 import excepts as ex
 
+
 def input_2_num():
-    return input("ВВедите два числа через пробел: ")
+    a, b = "", ""
+    while not a and not b:
+        print("ВВедите два числа через пробел: ")
+        ls = input().split()
+        if len(ls) == 2 and ls[0].isnumeric() and ls[1].isnumeric():
+            a, b = ls
 
 
 def sum(x, y):
