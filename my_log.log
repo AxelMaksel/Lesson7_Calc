@@ -10,3 +10,19 @@
 23-01-2023 21:51:34 - excepts - INFO - check_zero - Check division by zero
 23-01-2023 22:00:31 - menu_rac - INFO - menu_rac - Selected racional menu
 23-01-2023 22:02:03 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:22:41 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:22:50 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 22:25:35 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:25:48 - calc - INFO - input_2_num - Input two numbers 34,11
+23-01-2023 22:25:48 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 22:30:27 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:30:32 - calc - ERROR - input_2_num - Input two numbers ['2', 'e']
+23-01-2023 22:30:37 - calc - INFO - input_2_num - Input two numbers 99,65
+23-01-2023 22:30:37 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 22:32:12 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:32:18 - calc - INFO - input_2_num - Input two numbers 44,23
+23-01-2023 22:32:18 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 22:33:00 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:33:11 - calc - INFO - input_2_num - Input two numbers 65,43
+23-01-2023 22:33:11 - excepts - INFO - check_zero - Check division by zero
+23-01-2023 22:33:11 - calc - INFO - div01 - Result 65/43=1.5116279069767442

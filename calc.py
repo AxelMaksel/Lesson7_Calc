@@ -1,5 +1,5 @@
 import excepts as ex
-
+from logg import logging
 
 def input_2_num():
     a, b = "", ""
@@ -8,6 +8,11 @@ def input_2_num():
         ls = input().split()
         if len(ls) == 2 and ls[0].isnumeric() and ls[1].isnumeric():
             a, b = ls
+            logging.info(f'Input two numbers {a},{b}')
+            return a,b
+        else:
+            logging.error(f'Input two numbers {ls}')
+            
 
 
 def sum(x, y):
@@ -28,7 +33,9 @@ def mul(x, y):
 
 def div01(x, y):
     if ex.check_zero(x, y):
-        return (float(x) / float(y))
+        r =float(x) / float(y)
+        logging.info(f'Result {x}/{y}={r}')
+        return (r)
 
 
 def div02(a, b):
