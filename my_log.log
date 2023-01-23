@@ -26,3 +26,6 @@
 23-01-2023 22:33:11 - calc - INFO - input_2_num - Input two numbers 65,43
 23-01-2023 22:33:11 - excepts - INFO - check_zero - Check division by zero
 23-01-2023 22:33:11 - calc - INFO - div01 - Result 65/43=1.5116279069767442
+23-01-2023 22:41:14 - menu_rac - INFO - menu_rac - Selected racional menu
+23-01-2023 22:41:19 - calc - INFO - input_2_num - Input two numbers 4,5
+23-01-2023 22:41:19 - calc - INFO - mul - Result 4*5=20.0

@@ -2,7 +2,7 @@ from logg import logging
 
 def check_zero(x, y):
     logging.info('Check division by zero')
-    if x.isnumeric() and y.isnumeric() and y != "0":
+    if y != "0":
         return True
     return False
 

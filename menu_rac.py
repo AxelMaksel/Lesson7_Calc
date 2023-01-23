@@ -18,14 +18,17 @@ def menu_rac():
 
         match num_typ:
             case "1":
-                pass
+                a, b = cl.input_2_num()
+                print(f"\n{a}+{b}={cl.sum(a,b)}\n")
             case "2":
-                menu_rac()
+                a, b = cl.input_2_num()
+                print(f"\n{a}-{b}={cl.sub(a,b)}\n")
             case "3":
-                break
+                a, b = cl.input_2_num()
+                print(f"\n{a}*{b}={cl.mul(a,b)}\n")
             case "4":
                 a, b = cl.input_2_num()
-                print(f"{a}/{b}={cl.div01(a,b)}")
+                print(f"\n{a}/{b}={cl.div01(a,b)}\n")
             case "5":
                 menu_rac()
             case "6":
