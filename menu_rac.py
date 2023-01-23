@@ -1,6 +1,7 @@
 from logg import logging
 import calc as cl
 
+
 def menu_rac():
     logging.info('Selected racional menu')
     while True:
@@ -19,11 +20,12 @@ def menu_rac():
             case "1":
                 pass
             case "2":
-                menu_rac ()
+                menu_rac()
             case "3":
                 break
             case "4":
-                print(f"{cl.div01('5','3')}")
+                a, b = cl.input_2_num().split()
+                print(f"{a}/{b}={cl.div01(a,b)}")
             case "5":
                 menu_rac()
             case "6":

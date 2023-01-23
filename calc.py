@@ -1,5 +1,8 @@
 import excepts as ex
 
+def input_2_num():
+    return input("ВВедите два числа через пробел: ")
+
 
 def sum(x, y):
     return f'res = {x + y}'
