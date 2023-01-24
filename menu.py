@@ -10,7 +10,7 @@ def menu():
 
         match num_typ:
             case "1":
-                pass
+                mc.menu_comp()
             case "2":
                 rc.menu_rac()
             case "3":

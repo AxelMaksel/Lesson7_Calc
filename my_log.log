@@ -78,3 +78,70 @@
 24-01-2023 09:09:03 - menu_rac - INFO - menu_rac - Selected racional menu
 24-01-2023 09:09:12 - calc - INFO - input_2_num - Input two numbers 44,12.5
 24-01-2023 09:09:12 - calc - INFO - mul - Result 44*12.5=550.0
+24-01-2023 21:29:32 - menu_comp - INFO - menu_comp - Selected racional menu
+24-01-2023 21:29:42 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 21:29:48 - calc - INFO - input_2_num - Input two numbers 4 , 5
+24-01-2023 21:32:23 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 21:32:25 - calc - INFO - input_2_num - Input two numbers 3 , 2
+24-01-2023 21:35:00 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 21:35:01 - calc - INFO - input_2_num - Input two numbers 5 , 6
+24-01-2023 21:35:57 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 21:36:06 - calc - INFO - input_2_num - Input two numbers 23 , 5
+24-01-2023 21:36:09 - calc - INFO - input_2_num - Input two numbers 6 , 7
+24-01-2023 21:36:09 - calc - INFO - input_complex - Input two complex (23+5j) , (6+7j)
+24-01-2023 21:37:44 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 21:37:48 - calc - INFO - input_2_num - Input two numbers 23 , 4
+24-01-2023 21:37:50 - calc - INFO - input_2_num - Input two numbers 77 , 88
+24-01-2023 21:37:50 - calc - INFO - input_complex - Input two complex (23+4j) , (77+88j)
+24-01-2023 21:37:50 - calc - INFO - sum_compl - Result (23+4j)+(77+88j)=(100+92j)
+24-01-2023 21:41:52 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 21:41:54 - calc - INFO - input_2_num - Input two numbers 3 , 4
+24-01-2023 21:46:14 - calc - INFO - input_2_num - Input two numbers 5 , 6
+24-01-2023 21:46:16 - calc - INFO - input_2_num - Input two numbers 5 , 6
+24-01-2023 21:47:37 - calc - INFO - input_2_num - Input two numbers 3 , 4
+24-01-2023 21:47:38 - calc - INFO - input_2_num - Input two numbers 5 , 6
+24-01-2023 21:57:24 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 21:57:27 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 21:57:29 - calc - INFO - input_2_num - Input two numbers 3 , 4
+24-01-2023 21:57:29 - calc - INFO - input_complex - Input two complex (2+3j) , (3+4j)
+24-01-2023 21:57:29 - calc - INFO - sum_compl - Result (2+3j)+(3+4j)=(5+7j)
+24-01-2023 21:57:36 - calc - INFO - input_2_num - Input two numbers -2 , 3
+24-01-2023 21:57:39 - calc - INFO - input_2_num - Input two numbers 4 , -2
+24-01-2023 21:57:39 - calc - INFO - input_complex - Input two complex (-2+3j) , (4-2j)
+24-01-2023 21:57:39 - calc - INFO - sum_compl - Result (-2+3j)+(4-2j)=(2+1j)
+24-01-2023 21:57:45 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 22:00:28 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 22:00:30 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 22:00:32 - calc - INFO - input_2_num - Input two numbers 4 , 5
+24-01-2023 22:00:32 - calc - INFO - input_2_complex - Input two complex (2+3j) , (4+5j)
+24-01-2023 22:00:32 - calc - INFO - sub_compl - Result (2+3j)-(4+5j)=(-2-2j)
+24-01-2023 22:00:40 - calc - INFO - input_2_num - Input two numbers 1 , 2
+24-01-2023 22:00:41 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 22:00:41 - calc - INFO - input_2_complex - Input two complex (1+2j) , (2+3j)
+24-01-2023 22:00:41 - calc - INFO - mul_compl - Result (1+2j)*(2+3j)=(-4+7j)
+24-01-2023 22:00:52 - calc - INFO - input_2_num - Input two numbers 1 , 4
+24-01-2023 22:00:55 - calc - INFO - input_2_num - Input two numbers 1 , 2
+24-01-2023 22:00:55 - calc - INFO - input_2_complex - Input two complex (1+4j) , (1+2j)
+24-01-2023 22:00:55 - calc - INFO - div_compl - Result (1+4j)/(1+2j)=(1.8+0.4j)
+24-01-2023 22:03:10 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 22:03:14 - calc - INFO - input_2_num - Input two numbers 2 , 3
+24-01-2023 22:03:16 - calc - INFO - input_2_num - Input two numbers 12 , 2
+24-01-2023 22:03:16 - calc - INFO - input_2_complex - Input two complex (2+3j) , (12+2j)
+24-01-2023 22:03:16 - calc - INFO - div_compl - Result (2+3j)/(12+2j)=(0.2027027027027027+0.2162162162162162j)
+24-01-2023 22:03:25 - calc - INFO - input_2_num - Input two numbers 2 , 2
+24-01-2023 22:03:25 - calc - INFO - input_1_complex - Input ùòó complex (2+2j)
+24-01-2023 22:03:27 - calc - INFO - input_1_num - Input one numbers 3
+24-01-2023 22:04:38 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 22:04:43 - calc - INFO - input_2_num - Input two numbers 2 , 2
+24-01-2023 22:04:43 - calc - INFO - input_1_complex - Input ùòó complex (2+2j)
+24-01-2023 22:04:44 - calc - INFO - input_1_num - Input one numbers 4
+24-01-2023 22:04:44 - calc - INFO - pow_compl - Result (2+2j)**4=(-64+0j)
+24-01-2023 22:04:54 - calc - INFO - input_2_num - Input two numbers 2 , 2
+24-01-2023 22:04:54 - calc - INFO - input_1_complex - Input ùòó complex (2+2j)
+24-01-2023 22:05:23 - menu_comp - INFO - menu_comp - Selected complex menu
+24-01-2023 22:05:29 - calc - INFO - input_2_num - Input two numbers 3 , 4
+24-01-2023 22:05:29 - calc - INFO - input_1_complex - Input ùòó complex (3+4j)
+24-01-2023 22:05:29 - calc - INFO - sqrt_compl - Result (3+4j)**0.5=(2+1j)
+24-01-2023 22:05:43 - menu_rac - INFO - menu_rac - Selected racional menu
+24-01-2023 22:05:48 - calc - INFO - input_2_num - Input two numbers 6 , 7
+24-01-2023 22:05:48 - calc - INFO - pow - Result 6**7=279936.0

@@ -21,29 +21,28 @@ def menu_rac():
         match num_typ:
             case "1":
                 a, b = cl.input_2_num()
-                print(f"\n{a}+{b}={cl.sum(a,b)}\n")
+                cl.print_result(f"{a} + {b} = ", cl.sum(a, b))
             case "2":
                 a, b = cl.input_2_num()
-                print(f"\n{a}-{b}={cl.sub(a,b)}\n")
+                cl.print_result(f"{a} - {b} = ", cl.sub(a, b))
             case "3":
                 a, b = cl.input_2_num()
-                cl.print_result(f"{a}*{b}=", cl.mul(a, b))
-                # print(f"\n\033[31m {a}*{b}={cl.mul(a,b)}\n\033[0m")
+                cl.print_result(f"{a} * {b} = ", cl.mul(a, b))
             case "4":
                 a, b = cl.input_2_num()
-                print(f"\n{a}/{b}={cl.div_1(a,b)}\n")
+                cl.print_result(f"{a} / {b} = ", cl.div_1(a, b))
             case "5":
                 a, b = cl.input_2_num()
-                print(f"\n{a}//{b}={cl.div_2(a,b)}\n")
+                cl.print_result(f"{a} // {b} = ", cl.div_2(a, b))
             case "6":
                 a, b = cl.input_2_num()
-                print(f"\n{a}%{b}={cl.div_3(a,b)}\n")
+                cl.print_result(f"{a} % {b} = ", cl.div_3(a, b))
             case "7":
                 a, b = cl.input_2_num()
-                print(f"\n{a}%{b}={cl.pow(a,b)}\n")
+                cl.print_result(f"{a} ** {b} = ", cl.pow(a, b))
             case "8":
                 a = cl.input_1_num()
-                print(f"\nSQRT {a}={cl.sqrt(a)}\n")
+                cl.print_result(f"SQRT {a} = ", cl.sqrt(a))
             case "0":
                 break
             case _:
