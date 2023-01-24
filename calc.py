@@ -2,6 +2,12 @@ import excepts as ex
 from logg import logging
 
 
+def print_result(st,a):
+    print(f"\033[31m*"*40)
+    print(f"{st}{a}")
+    print("*"*40, f"\033[0m")
+
+
 def input_2_num():
     a, b = "", ""
     while not a and not b:
@@ -16,7 +22,6 @@ def input_2_num():
             logging.error(f'Input two numbers {ls}')
 
 
-
 def input_1_num():
     a = ""
     while not a:
@@ -28,8 +33,7 @@ def input_1_num():
             return a
         else:
             logging.error(f'Input one numbers {ls}')
-            
-            
+
 
 def sum(x, y):
     r = float(x) + float(y)

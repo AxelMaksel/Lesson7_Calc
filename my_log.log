@@ -68,3 +68,13 @@
 23-01-2023 23:30:04 - calc - INFO - sub - Result 3--3=6.0
 23-01-2023 23:30:12 - calc - INFO - input_2_num - Input two numbers -3,2
 23-01-2023 23:30:12 - calc - INFO - mul - Result -3*2=-6.0
+24-01-2023 08:34:02 - menu_rac - INFO - menu_rac - Selected racional menu
+24-01-2023 08:34:06 - menu_rac - INFO - menu_rac - Selected racional menu
+24-01-2023 08:34:13 - calc - INFO - input_2_num - Input two numbers 3,3
+24-01-2023 08:34:13 - calc - INFO - mul - Result 3*3=9.0
+24-01-2023 08:36:25 - menu_rac - INFO - menu_rac - Selected racional menu
+24-01-2023 08:36:31 - calc - INFO - input_2_num - Input two numbers 4,453
+24-01-2023 08:36:31 - calc - INFO - mul - Result 4*453=1812.0
+24-01-2023 09:09:03 - menu_rac - INFO - menu_rac - Selected racional menu
+24-01-2023 09:09:12 - calc - INFO - input_2_num - Input two numbers 44,12.5
+24-01-2023 09:09:12 - calc - INFO - mul - Result 44*12.5=550.0

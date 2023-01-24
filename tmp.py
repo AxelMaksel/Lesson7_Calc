@@ -7,6 +7,8 @@
 #         a, b = ls
 
 import numbers
+
+
 def isint(s):
     try:
         float(s) or int(s)
@@ -15,14 +17,20 @@ def isint(s):
         return False
 
 
-a = "2"
+def print_result(a):
+    print(f"\033[31m*"*40)
+    print(a)
+    print("*"*40, f"\033[0m")
+
+print_result(33)
+
+a= "2"
 print(a.count("-"))
 print(isint(a))
 # print(isint(a))
 print(a.isnumeric())
 # print(f"== {a}, {b} ==")
 
-    
 
-variable = 5
+variable= 5
 print(isinstance(a, numbers.Number))
