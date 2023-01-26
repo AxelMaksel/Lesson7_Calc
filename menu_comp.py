@@ -1,12 +1,12 @@
 from logg import logging
 import calc as cl
-
+import excepts as ex
 
 def menu_comp():
     logging.info('Selected complex menu')
     while True:
         print("Меню комплексных чисел.")
-        num_typ = input("Что будем делать\n"
+        num_type = input("Что будем делать\n"
                         "1 - сложение\n"
                         "2 - вычитание\n"
                         "3 - умножение\n"
@@ -16,27 +16,33 @@ def menu_comp():
                         "0 - выход в главное меню\n"
                         )
 
-        match num_typ:
+        match num_type:
             case "1":
-                a, b = cl.input_2_complex()
-                cl.print_result(f"{a} + {b} = ", cl.sum_compl(a, b))
+                print("\n Сложение комплексных чисел")
+                a, b = cl.input_complex()
+                cl.print_result(f"{a} + {b} = ", cl.sum(a, b))
             case "2":
-                a, b = cl.input_2_complex()
-                cl.print_result(f"{a} - {b} = ", cl.sub_compl(a, b))
+                print("\n Вычитание комплексных чисел")
+                a, b = cl.input_complex()
+                cl.print_result(f"{a} - {b} = ", cl.sub(a, b))
             case "3":
-                a, b = cl.input_2_complex()
-                cl.print_result(f"{a} * {b} = ", cl.mul_compl(a, b))
+                print("\n Умножение комплексных чисел")
+                a, b = cl.input_complex()
+                cl.print_result(f"{a} * {b} = ", cl.mul(a, b))
             case "4":
-                a, b = cl.input_2_complex()
-                cl.print_result(f"{a} / {b} = ", cl.div_compl(a, b))
+                print("\n Деление комплексных чисел")
+                a, b = cl.input_complex()
+                cl.print_result(f"{a} / {b} = ", cl.div_1(a, b))
             case "5":
+                print("\n Возведение в степень комплексных чисел")
                 a = cl.input_1_complex()
                 b = cl.input_1_num()
-                cl.print_result(f"{a} ** {b}=", cl.pow_compl(a,b))
+                cl.print_result(f"{a} ** {b}=", cl.pow(a,b))
             case "6":
+                print("\n Вычисление квадратного корня комплексного числа")
                 a = cl.input_1_complex()
-                cl.print_result(f"SQRT {a}=", cl.sqrt_compl(a))
+                cl.print_result(f"SQRT {a}=", cl.sqrt_complex(a))
             case "0":
                 break
             case _:
-                print("Erro!!")
+                print("Вы выбрали неверное значение: уточните выбор или нажмите 0 для возврата в главное меню")
