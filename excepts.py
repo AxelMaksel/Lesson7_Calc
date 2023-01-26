@@ -1,15 +1,28 @@
+import types
 from logg import logging
 
 def check_zero(x, y):
-    logging.info('Check division by zero')
-    if y != "0":
+    try:
+        x/y
+        valid = True
+    except Exception:
+        logging.error('Tried to divide by zero')
+        valid = False
+
+    return valid
+
+def validate(userInput):
+    try:
+        transf = float(userInput)
+        valid = True
+    except Exception:
+        logging.error('tried to input a non-numeric value')
+        valid = False
+
+    return valid
+
+def check_posit(x):
+    logging.info('Checking for negativity')
+    if x>=0:
         return True
     return False
-
-
-def check_num(x, y):
-    logging.info('проверка на число')
-    if x.isnumeric() and y.isnumeric():
-        return True
-    return False
-
